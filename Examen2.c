@@ -50,10 +50,10 @@ void leer_archivo(){
 int main(){
     int n = 9;
     leer_archivo();
-    printf("Input: ");
+    printf("Valoresv1: ");
     pantalla(l, n);
     examen(l, n);
-    printf("Output: ");
+    printf("Valoresv2: ");
     pantalla(l, n);
     printf("\n");
 }
